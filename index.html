@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>tasty1</title>
+
+    <!--  CSS Link -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+</head>
+
+<body >
+
+
+ <!-- ======= NavBar ======= -->
+ <header id="header" >
+  <nav class="navbar navbar-expand-lg  fixed-top navbar-scrolled" style="background-color: none ;">
+      <a class="navbar-brand text-center" href="index.html">
+          <h1 alt="logo" class="logo__img img-fluid">Tasty</h1> 
+      </a>
+
+      <button class="navbar-toggler" style="border-color: #F2AC32 ; " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right"   id="navbarNavDropdown">
+        <ul class="navbar-nav" >
+          <li class="nav__item active">
+            <a class="nav__link" href="#hero">Home</a>
+          </li>
+          <li class="nav__item">
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li class="nav__item dropdown">
+              <a class="nav__link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#cardisection">Main Course</a>
+                <a class="dropdown-item" href="#A">Appetizers</a>
+              </div>
+            </li>
+          <li class="nav__item">
+              <a class="nav__link" href="#team">Team</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#order">Book</a>
+            </li>
+        </ul>
+      </div>
+
+ 
+    </nav>
+</header>
+
+
+
+ <!--  ======= Home Section ======= -->
+  <section class="hero d-flex align-items-center " id="hero">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h1 class="hero__main">It's time to <br>Injoy your meal</h1>
+        <h2 class="hero__subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos illum ut laudantium esse veniam temporibus quasi enim vel sit, expedita cum est alias, explicabo fugiat ipsam odit accusantium beatae numquam.</h2>
+        
+        <div class="row">
+          <div class="col-lg-4 ">
+            <a class="btn_link" href="" ><button class="first__btn">Order Now</button></a>
+          </div>
+        
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </section>
+    
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="section__build text-center">
+      <h1 class="section__title">About Us</h1>
+      <span class="line__section" ></span>
+    </div>
+      <div class="container align-content-center">
+        <div class="row">
+
+          <div class="col-md-6 align-content-center">
+            <img src="assets/imgs/images (1).jfif" alt="" class="about__img img-fluid">
+            <img src="assets/imgs/hamburger-1238246_640.jpg" alt="" class="about__img_2 img-fluid">
+            
+          
+            </div>
+          <div class="col-md-6 align-content-center">
+            <h1 class="about__title">WHO ARE WE ? </h1>
+            <span class="line__home" ></span>
+            <p class="about__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, minima recusandae iure in ex similique ut reprehenderit iste hic voluptates, neque temporibus eius consequatur quasi consectetur, nesciunt error nam. Consequuntur! ipsum dolor sit amet consectetur adipisicing elit. Hic eos, tempora nam asperiores, veritatis corporis quasi cumque sed sequi repellendus modi nobis ea quam quia tenetur libero. Ea, corrupti odio!</p>
+
+            <a class="btn_link" href="" ><button class="first__btn" style="width: 10rem;"> About US </button></a>
+
+          </div>
+
+      </div>
+      <div class="row 1">
+        <div class="col-md-4 align-content-center">
+          <div class="about__circle text-center">
+            <img src="assets/imgs/like.png" alt="" class="about__circle__icon">
+            <p class="about__circle_title">Happy Clients</p>
+            <span data-purecounter-start="0" data-purecounter-end="2900" data-purecounter-duration="1" class="purecounter"></span>
+          </div>
+        </div>
+        <div class="col-md-4 align-content-center">
+          <div class="about__circle text-center">
+            <img src="assets/imgs/like.png" alt="" class="about__circle__icon">
+            <p class="about__circle_title">Luxury </p>
+            <span data-purecounter-start="0" data-purecounter-end="3500" data-purecounter-duration="1" class="purecounter"></span>
+          </div>
+        </div>
+        <div class="col-md-4 align-content-center ">
+          <div class="about__circle text-center">
+            <img src="assets/imgs/like.png" alt="" class="about__circle__icon">
+            <p class="about__circle_title">delicious food</p>
+            <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  
+<!----cardi section----->
+<section class="cardi_section" id="cardisection">
+<div class="cardi__container">
+  <div class="section-header">
+    <div class="section__build text-center">
+      <h1 class="section__title">Main Course</h1>
+      <span class="line__section" ></span>
+      <p class="section__sutitle">injoy ypur meal</p>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/5.jfif" class="cardi_img">
+          <h2 class="h2">Shawrma</h2>
+          <span class="s1"><i class='bx bxs-star'  ></i></span>
+          <span class="s2"><i class='bx bxs-star'   ></i></span>
+          <span class="s3"><i class='bx bxs-star'   ></i></span>
+          <span class="s4"><i class='bx bxs-star'   ></i></span>
+          <span class="s5"><i class='bx bxs-star'  ></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/images (3).jfif" class="cardi_img">
+          <h2 class="h2">chicken</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/1.jpg" class="cardi_img">
+          <h2 class="h2">Steak</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/4.webp" class="cardi_img">
+          <h2 class="h2">Pasta</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/2.jpg" class="cardi_img">
+          <h2 class="h2">Pizza</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/3.jpg" class="cardi_img">
+          <h2 class="h2">French Fried</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs//4.jpg" class="cardi_img">
+          <h2 class="h2">Burger</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cardi">
+          <img src="assets/imgs/images (2).jfif" class="cardi_img">
+          <h2 class="h2">Fajita</h2>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <span><i class='bx bx-star'></i></span>
+          <h5>125$</h5>
+          <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+          <button class="button">Order Now</button>
+        </div>
+      </div>
+      </div>
+  </div>
+  
+</div>
+</section>
+
+
+  <!-- ======= menu Section ======= -->
+<!----cardi section----->
+<section class="cardi_section" id="A">
+  <div class="cardi__container">
+    <div class="section-header">
+      <div class="section__build text-center">
+        <h1 class="section__title">Appetizers</h1>
+        <span class="line__section" ></span>
+        <p class="section__sutitle">injoy ypur meal</p>
+      </div>
+      <div class="row">
+  
+        <div class="col-md-3">
+          <div class="cardi">
+            <img src="assets/imgs//a4.jpg" class="cardi_img">
+            <h2 class="h2">Salad</h2>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <h5>125$</h5>
+            <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+            <button class="button">Order Now</button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="cardi">
+            <img src="assets/imgs/a3.jpg" class="cardi_img">
+            <h2 class="h2">Soup</h2>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <h5>125$</h5>
+            <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+            <button class="button">Order Now</button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="cardi">
+            <img src="assets/imgs/a2.jpg" class="cardi_img">
+            <h2 class="h2">Snack</h2>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <h5>125$</h5>
+            <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+            <button class="button">Order Now</button>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="cardi">
+            <img src="assets/imgs/a2.jpg" class="cardi_img">
+            <h2 class="h2">Snack</h2>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <span><i class='bx bx-star'></i></span>
+            <h5>125$</h5>
+            <p>Lorem, sint ut aperiam placeat necessitatibm!</p>
+            <button class="button">Order Now</button>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+  </div>
+  </section>
+  
+
+  
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section__build text-center">
+            <h1 class="section__title">Our Team</h1>
+            <span class="line__section" ></span>
+            <p class="section__sutitle">Our hard working team</p>
+          </div>
+         
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/imgs/team/team-1 - Copy.jpg" class="img-fluid team__img" alt="">
+                <div class="social">
+                  <a href=""><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class="bx bxl-twitter"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4 class="team__header">Walter White</h4>
+                <span  class="team__title">Chief Executive Officer</span>
+                <p class="team__subtitle">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/imgs/team/team-20.jpg" class="img-fluid team__img" alt="">
+                <div class="social">
+                  <a href=""><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class="bx bxl-twitter"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4 class="team__header">Sarah Jhonson</h4>
+                <span class="team__title">Product Manager</span>
+                <p class="team__subtitle">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/imgs/team/team-3.jpg" class="img-fluid team__img" alt="">
+                <div class="social">
+                  <a href="https://www.facebook.com/codiacompany"><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class="bx bxl-twitter"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4 class="team__header">Katy Pary</h4>
+                <span class="team__title">Product Manager</span>
+                <p class="team__subtitle">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--------- teami----------> 
+
+<section>
+  <div class="container">
+    
+      <div class="cardo">
+       <div class="imgbx">
+        <div class="content">
+
+       </div>
+       </div>
+      </div>
+
+  </div>
+</section>
+
+<!---------Contact us----------> 
+<section id="contacts"> 
+
+    <div class="container contact__data"> 
+    
+    <div class="row"> 
+    
+    <div class="col-md-8"> 
+    
+        <p class="contact__description">let's talk</p> <h1 class="contact__main">contact us</h1> 
+    
+        <p class="contact__explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit, repellendus odio nostrum distinctio l</p> 
+    </div> 
+
+    <div class="col-md-4 justify-content-center text-left">
+       <a class="btn_link" href="https://www.google.com/" ><button class="first__btn about__btn btn__contact" style="width: 10rem;">Contact US</button></a> 
+    </div> 
+
+    </div> 
+    </div>
+   </section> 
+
+  
+  
+<!---------book Section----------> 
+<section id="book"> 
+  <div class="container"> 
+    <div class="row"> 
+        <div class="col-md-6 app__data "> 
+          <div class="book">
+          <h1 class="contact__main">Book Now</h1> 
+          <p class="book_explian">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse rem fuga sit a architecto nemo ullam ab odio, consequuntur est eligendi atque beatae cupiditate alias earum minima recusandae eius?</p> 
+  
+          <div class="book_now">
+            <div class="name">
+          <fieldset class="field">
+            
+               <p class="order__form1"> Name: <input type="text" name="Name" class="order__form"></p>
+               <p class="order__form1"> Adress: <input type="text" id="Adress" name="Adress" class="order__form"> </p>
+               <p class="order__form1"> Tel:    <input type="phone" id="Tel" name="Tel" class="order__form"> </p>
+               
+             </fieldset>
+            </div></div>
+            <a class="btn_link" href="https://www.google.com/" ><button class="first__btn " style="width: 10rem;">Book Now</button></a> 
+
+        </div> 
+        </div> 
+  
+        <div class="col-md-6 text-right book__img">
+           <img src="assets/imgs/o1.jpg" alt="" class="book__img img-fluid"> 
+        </div> 
+  
+      </div> 
+      </div> 
+    </section> 
+
+<!---------footer---------->
+<section id="footer"> 
+
+<div class="container footer__data"> 
+
+  <div class="row text-center"> 
+
+<div class="col-md-3"> <a href="#" >  <h1 alt="logo" class="logo__img img-fluid">Tasty</h1>
+</a> 
+
+<p class="footer__description">Company</p> 
+
+<div class="social__logo"> 
+  <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+  <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+  <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a> 
+</div> 
+
+</div> 
+
+<div class="col-md-3"> <h3 class="footer__title">Services</h3> 
+<ul class="footer__link__list"> 
+<li><a href="#" class="footer__link">Private</a></li> 
+<li><a href="#" class="footer__link">Public</a></li> 
+<li><a href="#" class="footer__link">Luxury</a></li> 
+<li><a href="#" class="footer__link">Reserve your Ticket</a></li> 
+</ul> 
+</div> 
+
+<div class="col-md-3"> <h3 class="footer__title">Information</h3> 
+<ul class="footer__link__list"> 
+<li><a href="#" class="footer__link">Event</a></li> 
+<li><a href="#" class="footer__link">Contact us</a></li> 
+<li><a href="#" class="footer__link">Privacy policy</a></li> 
+<li><a href="#" class="footer__link">Terms of services</a></li> 
+</ul> 
+</div> 
+
+<div class="col-md-3"> <h3 class="footer__title">Address</h3> 
+<ul class="footer__link__list"> 
+<li><a href="#" class="footer__link">Lima - Peru</a></li> 
+<li><a href="#" class="footer__link">Jr Union #999</a></li> 
+<li><a href="#" class="footer__link">999 - 888 - 777</a></li> 
+  <li><a href="#" class="footer__link">tasty@email.com</a></li> 
+</ul> 
+</div> 
+</div> 
+</div> </section> <footer id="footer_rights"> 
+
+<div class="container "> 
+
+<div class="row"> 
+
+<div class="col-md-6 footer__terms text-center"> <a href="#" class="footer__terms-link">Terms & Agreements</a> <a href="#" class="footer__terms-link">Privacy Policy</a> 
+</div> 
+
+<div class="col-md-6 footer__rights__details text-center"> 
+
+<p class="footer__copy">&#169; 2023 Dima Alghabbash. All rigths reserved.</p> 
+</div> 
+</div> 
+</footer> 
+<!--========== SCROLL TOP ==========-->
+<a href="#" class="scrolltop" id="scroll-top"> 
+  <i class='bx bx-chevron-up scrolltop__icon'></i>
+</a> 
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <!--Main JS-->
+    <script src="assets/index.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Counters JS-->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+</body>
+</html>
